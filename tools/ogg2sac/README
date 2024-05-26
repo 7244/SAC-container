@@ -1,0 +1,4 @@
+your input ogg needs to have no metadata thingies, for opusenc command its `--padding 0 --discard-comments --discard-pictures`
+
+for demolish everything inside fatherload:
+./a.exe $(find audio -type f -printf "%p ")
